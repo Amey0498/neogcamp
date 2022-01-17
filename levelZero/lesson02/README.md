@@ -5,4 +5,4 @@
 - creating a file
 - commiting the file with a commit message
 - understanding the different commit messages used by professionals
-- publish the chnages to GitHub using Github Desktop
+- publish the changes to GitHub using Github Desktop
