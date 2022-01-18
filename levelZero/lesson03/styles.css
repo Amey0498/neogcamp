@@ -9,6 +9,7 @@
 
 body {
     font-family: 'Inter', sans-serif;
+    margin: 0;
 }
 
 hr {
@@ -83,6 +84,7 @@ hr {
 }
 .hero .hero-heading {
     padding-top: 1rem;
+    text-align: center;
     color: var(--dark-gray);
 }
 
@@ -104,3 +106,16 @@ section h1 {
 }
 
 /** footer */
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+.footer .link {
+    color: white;
+}
+.footer ul {
+    padding-inline-start: 0;
+}
