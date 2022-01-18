@@ -28,14 +28,16 @@ hr {
 .link {
     text-decoration: none;
     padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
-.primary-link {
+.link-primary {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
 }
 
-.secondary-link {
+.link-secondary {
     color: var(--primary-color);
     border: 0.1rem solid var(--primary-color);
     border-radius: 0.5rem;
@@ -116,6 +118,10 @@ section h1 {
 .footer .link {
     color: white;
 }
+.footer .footer-header {
+    font-size: large;
+    font-weight: bold;
+}
 .footer ul {
-    padding-inline-start: 0;
+    padding-inline-start: 0px;
 }
